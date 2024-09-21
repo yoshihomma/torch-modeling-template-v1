@@ -1,11 +1,12 @@
 from typing import Optional
+import pandas as pd
 
 from ..utils.yacs import CfgNode
 
 
 # TODO: Implement score and eval functions
 
-def score() -> float:
+def score(solution: pd.DataFrame, submission: pd.DataFrame) -> float:
     raise NotImplementedError()
 
 
